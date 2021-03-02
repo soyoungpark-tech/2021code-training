@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+*{
+    font-family: Nanum Gothic, bold;
+    margin: 0;
+    padding: 0;
+}
+
+/* :link{color: black;} */
+:visited{color: rgb(94, 91, 116);}
+
+body{
+    margin: 8%;
+    width: auto;
+    background-color: rgb(172, 185, 211);
+}
+
+.title{
+    background-size: auto;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.header{
+    font-size: 2.5em;
+    font-weight: bolder;
+    /* position: absolute; */
+}
+
+ul{
+    margin-top: 10%;
+}
+
+.firstmenu{
+    /* font-size: large; */
+}
+
+ul li{
+    list-style-type: none; 
+    display: inline; 
+    margin-right: 4px;
+    font-size: small;
+}
+
+.menuImg{
+    /* display: flex; */
+    margin-top: 25%;
+}
+
+.head{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+    margin: 3%;
+    /* justify-content: space-around; */
+}
+
+.bigAd{
+    width: 100%;
+    /* position: relative; */
+    /* height: 80%; */
+    /* object-fit: cover;
+    overflow: hidden; */
+}
+
+.list{
+    display: flex;
+    overflow-x: auto;
+}
+
+.list img{
+    display: flex;
+    /* margin: 15% 0 0 15%; */
+}
+
+.list a{
+    text-align: center;
+    margin: 4%;
+}
+
+h4{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.cures{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cures img{
+    padding-right: 50px;
+    width: 35%;
+
+}
+
+.firstCure{
+    display: grid;
+    padding: 3%;
+}
+
+.FCure{
+    display: grid;
+    justify-content: right;
+    margin-top: -25%;
+    margin-left: 20%;
+}
+
+.SCure{
+    display: grid;
+    justify-content: right;
+    margin-top: -25%;
+    margin-left: 20%;
+}
+
+.centerInfo{
+    width: 80%;
+    margin: 3%;
+    line-height: 1.5;
+    color: grey;
+}
+
+.numbers{
+    width: 80%;
+    margin: 3%;
+    line-height: 1.5;
+    color: grey;
+}
