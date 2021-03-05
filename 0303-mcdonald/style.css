@@ -1,0 +1,112 @@
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    display: flex;
+    width: 100%;
+    margin: 3% 0;
+}
+.head img{
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 15%;
+}
+.headBar{
+    width: 80%;
+}
+.headBar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin: 5% 0;
+}
+.headBar li{
+    list-style: none;
+}
+.headlang{
+    display: flex;
+    justify-content: space-between;
+}
+.headlang ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.headlang li{
+    list-style: none;
+    margin: 5%;
+}
+.headlang button{
+    display: inline-block;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    padding-top: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 48px;
+}
+.search{
+    margin: 5% 0;
+    font-size: 1.5em;
+}
+
+.mainImg{
+    width: 100%;
+}
+.mcTitle{
+    font-size: 20px;font-weight: 900;
+    margin: 3% 0;
+}
+.livePic div{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.livePic img{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    margin: 3% 0;
+}
+.mcdeliver{
+    display: flex;
+    justify-content: flex-end;
+}
+.mcdeliver img{
+    width: 50px;
+    margin: 0;
+    border: 3px solid rgb(182, 1, 1);
+    border-radius: 100%;
+}
+.mcdeliver button{
+    border-radius: 100%;
+}
+.foot{
+    display: flex;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+.foot1 ul{
+    list-style: none;
+}
+.foot2 ul{
+    list-style: none;
+}
+.sns{
+    display: flex;
+    justify-content: flex-end;
+}
+.sns ul{
+    list-style: none;
+}
