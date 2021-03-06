@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.community {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px;
+}
+.community .project{
+    text-align: center;
+    line-height: 25px;
+}
+.community .project .title{
+    color: #6183C6;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.community .project .category{
+    color: #6183C6;
+}
+.community .care{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+}
+.community .care i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.community .care p{
+    color: #6183C6;
+}
