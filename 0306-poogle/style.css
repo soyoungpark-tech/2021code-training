@@ -1,0 +1,30 @@
+body{
+    font-family: Roboto, system-ui,Apple SD Gothic Neo,AppleGothic,sans-serif;
+    font-size: 81.25%
+}
+h1{
+    text-align: center;
+    font-size: 90px;
+    margin-top: 230px;
+}
+h1 span:nth-child(1) {
+    color: #4285f3;
+}
+h1 span:nth-child(2) {
+    color: #ea4435;
+}
+h1 span:nth-child(3) {
+    color: #fbbd04;
+}
+h1 span:nth-child(4) {
+    color: #4285f3;
+}
+h1 span:nth-child(5) {
+    color: #33a852;
+}
+h1 span:nth-child(6) {
+    color: #ea4435;
+}
+.search-bar{
+    width: 500px;
+}
