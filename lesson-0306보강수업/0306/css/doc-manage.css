@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+.test{
+    background-color: #bbddff;
+    color: #0644ad;
+} */
+.bold{
+    font-weight: bold;
+}
+.request{
+    border: 1px solid #bbddff;
+    padding: 20px;
+    margin: 30px;
+}
+.request h3{
+    font-weight: bold;
+    background-color: #bbddff;
+    padding: 5px;
+}
+.sub-top{
+    border: 1px solid black;
+    width: 30%;
+    height: 10%;
+    margin: 20px 0;
+    text-align: center;
+    padding-top: 50px;
+}
+.sub-top-1{
+    color: #0644ad;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.sub-top-2{
+    font-size: 13px;
+}
+.request ul{
+    padding-left: 20px;
+    font-size: 14px;
+}

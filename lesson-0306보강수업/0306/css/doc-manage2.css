@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.admin{
+    border: 1px solid#BBDDFF;
+    padding: 20px;
+    margin: 30px;
+}
+.admin > h4{
+    background-color: #BBDDFF;
+    line-height: 30px;
+}
+.admin .box{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.admin .box h4{
+    color: #0644AD;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.admin ul{
+    margin-left: 20px;
+}
