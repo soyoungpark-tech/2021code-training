@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>modal 3</title>
+<style>
+    /* event Catch */
+    input[id=modalBtn] {
+        display: none;
+    }
+    input[id=modalBtn]:checked ~ .modalContainer {
+        display: none;
+    }
+    input[id=modalBtn] + label {
+        display: inline-block;
+        background: salmon;
+        width: 70px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 19px;
+        border-radius: 10px;
+    }
+    /* modalBox */
+    .modalBox {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 400px;
+        height: 400px;
+        background: #fff;
+        z-index: 2;
+        text-align: center;
+    }
+    /* overlay */
+    .modalContainer > label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.3);
+        z-index: 1;
+    }
+    /* close Btn */
+    .modalBox > label {
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        width: 20px;
+        height: 23px;
+        text-align: center;
+        line-height: 23px;
+        border-radius: 2px;
+        background: green;
+        cursor: pointer;
+        z-index: 3;
+    }
+    .modalBox img {
+        width: 400px;
+        height: 280px;
+    }
+    .modalBox h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 27px;
+    }
+    .modalBox button {
+        outline: none;
+        border: none;
+        font-size: 17px;
+        cursor: pointer;
+        color: #fff;
+        background: #333;
+        margin-top: 10px;
+    }
+
+</style>
+</head>
+<body>
+    <input type="checkbox" id="modalBtn">
+    <label for="modalBtn">view</label>
+
+    <div class="modalContainer">
+        <div class="modalBox">
+            <label for="modalBtn">x</label>
+            <h1>번개 속성을 사용하시겠습니까?</h1>
+            <img src="./pikachu2_300x300.png" alt="pikachu">
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+        <label for="modalBtn"></label>
+    </div>
+</body>
+</html>
