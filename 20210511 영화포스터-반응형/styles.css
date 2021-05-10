@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  width: 200px;
+  vertical-align: top;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+#wrap {
+  max-width: 1080px;
+  margin: 1rem 70px;
+}
+.clearfix:after {
+  content: "";
+  display: none;
+  clear: both;
+}
+/* header */
+header {
+  padding: 25px 70px;
+  color: #fff;
+  background: #032531;
+}
+header img {
+  width: 150px;
+}
+.gnb {
+  display: inline-block;
+  position: relative;
+}
+.gnb li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.gnb-login {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+.gnb-login li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.menu-movie-nav {
+  border: 1px solid #999;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 120%;
+  text-align: center;
+  width: 150px;
+  padding: 10px 0;
+  color: #000;
+  visibility: hidden;
+  z-index: 999;
+}
+.menu-movie-bar li {
+  display: inline-block;
+  width: 100px;
+  padding: unset;
+  margin: 10px 0;
+}
+.menu-movie:hover .menu-movie-nav {
+  visibility: visible;
+}
+.poster-container img {
+  width: 200px;
+  height: 270px;
+  padding-top: 10px;
+}
+.poster-box {
+  height: 0;
+  float: left;
+  position: relative;
+}
+.poster-item {
+  margin-top: 20px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  float: left;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  transition: all 0.3s;
+}
+.poster-item:hover {
+  transform: translateY(-10px);
+}
+.poster-img {
+  text-align: center;
+}
+.poster-desc {
+  padding: 20px;
+  margin: 20px;
+}
+.poster-desc h1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+/* grid system */
+.l-grid-1-12 {
+  width: 8.33333333%;
+}
+.l-grid-2-12 {
+  width: 16.66666667%;
+}
+.l-grid-3-12 {
+  width: 25%;
+}
+.l-grid-4-12 {
+  width: 33.33333333%;
+}
+.l-grid-5-12 {
+  width: 41.66666667%;
+}
+.l-grid-6-12 {
+  width: 50%;
+}
+.l-grid-7-12 {
+  width: 58.33333333%;
+}
+.l-grid-8-12 {
+  width: 66.66666667%;
+}
+.l-grid-9-12 {
+  width: 75%;
+}
+.l-grid-10-12 {
+  width: 83.33333333%;
+}
+.l-grid-11-12 {
+  width: 91.66666667%;
+}
+.l-grid-12-12 {
+  width: 100%;
+}
+
+.l-grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin: 0.5rem;
+  }
+  /* grid tablet system */
+  .l-grid-tablet-1-12 {
+    width: 8.33333333%;
+  }
+  .l-grid-tablet-2-12 {
+    width: 16.66666667%;
+  }
+  .l-grid-tablet-3-12 {
+    width: 25%;
+  }
+  .l-grid-tablet-4-12 {
+    width: 33.33333333%;
+  }
+  .l-grid-tablet-5-12 {
+    width: 41.66666667%;
+  }
+  .l-grid-tablet-6-12 {
+    width: 50%;
+  }
+  .l-grid-tablet-7-12 {
+    width: 58.33333333%;
+  }
+  .l-grid-tablet-8-12 {
+    width: 66.66666667%;
+  }
+  .l-grid-tablet-9-12 {
+    width: 75%;
+  }
+  .l-grid-tablet-10-12 {
+    width: 83.33333333%;
+  }
+  .l-grid-tablet-11-12 {
+    width: 91.66666667%;
+  }
+  .l-grid-tablet-12-12 {
+    width: 100%;
+  }
+  header img,
+  .gnb {
+    margin-left: 3rem;
+  }
+  .gnb-login {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .cover {
+    margin: 0.2rem;
+  }
+  /* grid mobile system */
+  .l-grid-mobile-1-12 {
+    width: 8.33333333%;
+  }
+  .l-grid-mobile-2-12 {
+    width: 16.66666667%;
+  }
+  .l-grid-mobile-3-12 {
+    width: 25%;
+  }
+  .l-grid-mobile-4-12 {
+    width: 33.33333333%;
+  }
+  .l-grid-mobile-5-12 {
+    width: 41.66666667%;
+  }
+  .l-grid-mobile-6-12 {
+    width: 50%;
+  }
+  .l-grid-mobile-7-12 {
+    width: 58.33333333%;
+  }
+  .l-grid-mobile-8-12 {
+    width: 66.66666667%;
+  }
+  .l-grid-mobile-9-12 {
+    width: 75%;
+  }
+  .l-grid-mobile-10-12 {
+    width: 83.33333333%;
+  }
+  .l-grid-mobile-11-12 {
+    width: 91.66666667%;
+  }
+  .l-grid-mobile-12-12 {
+    width: 100%;
+  }
+  header img {
+    margin-left: 2rem;
+  }
+  .gnb {
+    width: 480px;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    vertical-align: bottom;
+  }
+  .gnb-login {
+    display: none;
+  }
+}
