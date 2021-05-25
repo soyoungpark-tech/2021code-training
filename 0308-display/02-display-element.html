@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>inline display element</title>
+<style>
+    .sample1{
+        /* display: inline; 이게 기본 값이어서 안써도 됨 */
+        /* 인라인의 기본 너비값은 컨텐츠의 너비값이다 */
+        background-color: peru;
+    }
+    .sample2{
+        background-color: pink;
+        /* 상하 마진을 가질 수 없고 좌우 마진만 가능하다. */
+        /* margin: 30px; */
+        margin: 20px;
+        /* 패딩은 다 가질 수 있음 */
+        padding: 20px;
+    }
+    /* a태그는 버튼에 많이쓰인다 > 넓이를가진다. */
+    /* a는 inline요소라서 넓이와 높이를 가질 수 없다. */
+    a{
+        /* font-family: "Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif; */
+        font-size: 30px;
+        margin: 10px;
+        text-decoration: none;
+        background-color: #19ce60;
+        /* border: 1px solid #000; */
+        color: whitesmoke;
+        padding: 20px;
+        line-height: 150px;
+        border-radius: 25px;
+        text-transform: uppercase;
+    }
+</style>
+</head>
+<body>
+    <!-- inline 태그와 속성 -->
+    <span class="sample1">sample lorem Lorem, ipsum.</span>
+    <span class="sample2">sample lorem Lorem, ipsum.</span>
+    <span class="sample1">sample lorem Lorem, ipsum.</span>
+    <br>
+    <a href="https://www.google.com">google.com</a>
+    <a href="https://www.naver.com">naver.com</a>
+    <a href="https://www.kakaocorp.com">kakaocorp.com</a>
+</body>
+</html>

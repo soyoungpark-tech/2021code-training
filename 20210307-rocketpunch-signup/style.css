@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.signup-box{
+    max-width: 300px;
+    margin: 200px auto;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+
+}
+.signup-box div{
+    display: block;
+}
+.login{
+    font-size: 2em;
+}
+.signup-box > p{
+    color: #6e797f;
+    font-size: .8em;
+}
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}

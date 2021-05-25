@@ -1,0 +1,44 @@
+.box1{
+    /* padding : 안쪽 영역*/
+    padding: 40px;
+    /* margin : 여백 */
+    margin: 50px;
+    /* border : 경계선 */
+    border: 10px solid #000;
+    background-color: cornflowerblue;
+    /* 넓이 */
+    width: 250px;
+    /* 높이 */
+    height: 200px;
+}
+div ul li{
+    list-style-type: none;
+    float: left;
+    outline: 3px double red;
+    margin-left: 20px;
+}
+.box2{
+    margin: 10px 20px 100px 40px;
+    padding: 20px 0;
+    background-color: salmon;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+/* tag, class, id, *(universal), inline style */
+/* 자식셀렉터 >는 바로 아래에 있는 것을 선택 */
+.parent > div{
+    border: 1px solid black;
+}
+/* 자손셀렉터 */
+.parent div{
+    border:  1px solid black;
+}
+/* 인접형제 셀렉터 */
+.parent .child + div{
+    background-color: thistle;
+}
+/* 일반형제 셀렉터 */
+.parent .child ~ div{
+    color: tomato;
+}

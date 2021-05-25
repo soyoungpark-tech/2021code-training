@@ -1,0 +1,114 @@
+@import "reset.css";
+/* @charset "utf-8"; */
+
+#head {
+  padding: 20px 0;
+}
+#mainHead,
+#footHead {
+  padding: 0 10%;
+}
+.navBar {
+  text-decoration: none;
+}
+.navBar ul li {
+  display: inline-block;
+  text-align: left;
+  padding-right: 30px;
+  text-decoration: none;
+}
+.yellowBox {
+  width: 100%;
+  height: 300px;
+  line-height: 300px;
+  background-color: #faca15;
+  text-align: center;
+}
+.yellowBox h1 {
+  line-height: 1;
+  display: inline-block;
+  /* padding-left: 550px; */
+}
+/* .yellowBox h1 {
+  background-color: #faca15;
+  color: whitesmoke;
+  display: inline-block;
+  text-align: center;
+  padding-top: 100px;
+  width: 1500px;
+  height: 300px;
+} */
+.containerss ul {
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+.containerss ul li {
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 70px;
+  padding: 40px;
+  border: 1px solid #000;
+}
+#section2 {
+  border: 1px solid #000;
+}
+#section2 .mainText {
+  display: inline-block;
+  /* justify-content: space-around; */
+  width: 100%;
+  height: 300px;
+}
+#section2 .mainText .mainText1 {
+  display: inline-block;
+  line-height: 50px;
+  width: 50%;
+  padding: 30px;
+}
+#section2 .mainText .mainImg {
+  float: right;
+  text-align: center;
+  padding: 50px;
+}
+#section3 {
+  text-align: center;
+  line-height: 40px;
+  padding: 30px 0;
+}
+#section4 {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 50px;
+  background-color: #ddd;
+}
+#section4 .container {
+  display: inline;
+  font-size: 20px;
+  text-align: left;
+}
+#section4 .buttonn {
+  display: inline-block;
+  padding-left: 30%;
+}
+#section5 {
+  margin-top: 40px;
+  text-align: center;
+  line-height: 40px;
+  padding: 50px;
+}
+#footHead {
+  display: inline-block;
+  vertical-align: middle;
+}
+#footHead .foot1 {
+  float: left;
+}
+#footHead .foot2 {
+  margin-left: 40px;
+  float: left;
+}
+#footHead .foot3 {
+  margin-left: 40px;
+  float: right;
+}
