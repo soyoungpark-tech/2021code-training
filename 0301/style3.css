@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: cadetblue;
+    width: 80%;
+    margin-top: 10%;
+    padding: 5%;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+
+.titleTwo{
+    width: 30%;
+}
+
+.info{
+    display: inline-block;
+    /* position: relative; */
+    /* margin: 14%; */
+    /* width: 50%; */
+    /* height: 20%; */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-end;
+}
+
+.box{
+    display: flex;
+    padding: 10% 0%;
+    justify-content: space-between;
+}
+
+.menuBar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imggg{
+    width: 50%;
+}

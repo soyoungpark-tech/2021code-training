@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.all{
+    margin: 10%;
+    width: 80%;
+    background-color: whitesmoke;
+    padding: 5%;
+    border-radius: 50px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+.lets{
+    width: 30%;
+    height: 30%;
+}
+
+img{
+    width: 30%;
+    height: 35%;
+    position: absolute;
+    top: 0 ;
+    left: 65%;
+}
+
+.infoForm{
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 0%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+
+a:hover,
+.info:hover{
+    color: red;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.menuBar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menuBar ul li{
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
